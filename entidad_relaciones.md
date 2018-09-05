@@ -38,24 +38,24 @@
       > nombre puede ser una cadena de maximo 50 letras.
 
   * **Rol de una entida en una relacion**
-    > **_esposa_de_**
-    > juan con dni 123456 esta_casado con Maria cuyo dni es 33456.
-    > Esta ultima, tiene el rol de **_esposa_de_**
+     **_esposa_de_**
+     juan con dni 123456 esta_casado con Maria cuyo dni es 33456.
+     Esta ultima, tiene el rol de **_esposa_de_**
 
   * **Conjunto de entidades (mismo tipo)**
 
-    > El conjunto de todas las personas que poseen un nombre y un
-    > dni puede llamarse PERSONA.
+     El conjunto de todas las personas que poseen un nombre y un
+     dni puede llamarse PERSONA.
 
-    > El conjunto de todos los autos que poseen informacion del
-    > modelo y de la patente puede llamarse AUTO.
+     El conjunto de todos los autos que poseen informacion del
+     modelo y de la patente puede llamarse AUTO.
 
     _No necesariamente son disjuntos, por ejemplo una entidad 
     **alumno** puede ser una entidad **doncente**_
 
   * **Conjunto de relaciones**
-    > **ES_DUENIO_DE** es un conjuto de relaciones entre las entidades
-    > **PERSONA** y **AUTO**.
+     **ES_DUENIO_DE** es un conjuto de relaciones entre las entidades
+     **PERSONA** y **AUTO**.
     
 
   > **Los termonos, *entidad* y *conjunto de entidades* seran
@@ -71,8 +71,8 @@
     * total o de existencia: participacion obligatoria
     * particial: participacion no obligatoria
 
-    > Tomamos un conjunto binario de relaciones **R** entre dos
-    > conjuntos de entidades **A** y **B**, la cardinalidad puede ser.
+     Tomamos un conjunto binario de relaciones **R** entre dos
+     conjuntos de entidades **A** y **B**, la cardinalidad puede ser.
     * **Uno a uno** 
       Una entidad de **A** puede estar asociada con a lo sumo **una**
       entidad **B** y una entidad **B** puede estar asociada con a lo
