@@ -4,7 +4,7 @@
   > estructura de datos, operaciones y restricciones sobre los
   > datos. 
 
-* ## **Modelos logicos**
+ ## **Modelos logicos**
    Modelo de datos de alto nivel que provee conceptos cercanos
    a la manera en la que los usuarios perciben los datos.
   * Basado en objetos ("entidades y relaciones","orientado
@@ -95,7 +95,7 @@
 
   * **Clave o identificador**
 
-* ## **Modelos fisicos**
+ ## **Modelos fisicos**
    Modelo de datos de alto nivel que provee conceptos que
    describen detalles de como los datos son almacenados.
 
