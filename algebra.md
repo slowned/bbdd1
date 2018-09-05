@@ -5,7 +5,7 @@
   * proyeccion
   * producto cartesiano (X)
   * renombrar (p)
-  * union (U)
+  * Insercion (U) **Empleado U {("Pucho","4 y 497")}**
   * diferencia (-) Es necesario que las relaciones A y B sean de "union compatible".
   > Union compatible: Relaciones con igual numero de atributos, el dominio del I-esimo atributo
   > de ambas relaciones debe ser el mismo.
