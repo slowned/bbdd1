@@ -1,18 +1,28 @@
 **NORMALIZACION:**
-  llamamos **normalizar** hasta BCNF o 3fn
+  llamamos **normalizar** al proceso de llevar un esquema hasta BCNF o 3fn.
+
+## Anomalia
+  Problema que surge del disenio de una relacion.
+  * **Redundancia**: informacion que se repite innecesariamente en diferentes tuplas.
+  * **Actualizacion**: Se puede actualizar el valor en una tupla, sin actualizar los de otra tupla.
+  * **Insercion**: insertar alores en ciertos atributos de una relacion y no en otros me produce
+  valores nulos.
+  * **Borrado**: borrar ciertos valores de una tupla, puede llevarme a perder la informacion de la
+  tupla completa.
 
 
   ## FORMAS NORMALES
-    * *1FN*:
+    * **1FN**:
       los atributos de la relacion son simples y atomicos.
-    * *2FN*:
+  
+    * **2FN**:
       un esquema de relacion R esta en 2fn si para toda dependencia de la forma X->A,
       se cumple que, A depende de manera total de la clave.
   
   * **Super conjunto:** (nuestro def) es el conjunto de los atributos por 
-  los cuales se pueden acceder a los atributos retantes del modelo
-  > determinan funcionalmente a todos los restantes atributos de la relacion R
-  > Una superclave no necesariamente es minimal
+  los cuales se pueden acceder a los atributos retantes del modelo.
+    > determinan funcionalmente a todos los restantes atributos de la relacion R
+    > Una superclave no necesariamente es minimal.
 
   * **Axiomas de Astrong:** Permiten inferir nuevas _dependencias funcionales_.
     * Basicos (Reflexion, aumento, transitiviad).
